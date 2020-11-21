@@ -29,7 +29,7 @@ public class Main {
         for(Integer w: linkedHashSet){
             System.out.println(w);
         }
-        System.out.println(hashset.size());
+        System.out.println(linkedhashset.size());
         System.out.println(linkedHashSet.isEmpty());
         System.out.println(linkedHashSet.contains(10));
         System.out.println(linkedHashSet.remove(12));
