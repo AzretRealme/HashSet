@@ -15,10 +15,14 @@ public class Main {
             System.out.println(g);
         }
 
-        System.out.println(hashset.size());
-        System.out.println(hashset.isEmpty());
-        System.out.println(hashset.contains(10));
-        System.out.println(hashset.remove(12));
+        System.out.println("--------------------------------------------------");
+
+        System.out.println(hashset.size() + "  --Size");
+        System.out.println(hashset.isEmpty() + " --isEmpty");
+        System.out.println(hashset.contains(10) + " --contains(10)");
+        System.out.println(hashset.remove(12) + " --remove(12)");
+
+        System.out.println("--------------------------------------------------");
 
         Set<Integer> linkedHashSet = new LinkedHashSet<>();
         linkedHashSet.add(12);
@@ -29,9 +33,12 @@ public class Main {
         for(Integer w: linkedHashSet){
             System.out.println(w);
         }
-        System.out.println(linkedHashSet.size());
-        System.out.println(linkedHashSet.isEmpty());
-        System.out.println(linkedHashSet.contains(10));
-        System.out.println(linkedHashSet.remove(12));
+
+        System.out.println("--------------------------------------------------");
+
+        System.out.println(hashset.size() + "  --Size");
+        System.out.println(hashset.isEmpty() + " --isEmpty");
+        System.out.println(hashset.contains(10) + " --contains(10)");
+        System.out.println(hashset.remove(12) + " --remove(12)");
     }
 }
